@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
     int eleccionJugador;
-    cout<<"Elija: \n 1 para piedra \n 2 para papel \n 3 para tijera";<<endl;
+    cout<<"Elija: \n 1 para piedra \n 2 para papel \n 3 para tijera"<<endl;
     cin>>eleccionJugador;
 
     int numeroAleatorio = rand() % 3 + 1;
